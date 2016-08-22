@@ -1,0 +1,11 @@
+sudo: required
+
+services:
+  - docker
+
+before_install:
+  - docker info
+  - docker build -t hrektts/gitlab-ci-multi-runner .
+
+script:
+  - docker run -it hrektts/gitlab-ci-multi-runner echo "Hello World"
