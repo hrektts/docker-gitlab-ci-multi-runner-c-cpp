@@ -1,4 +1,4 @@
-FROM sameersbn/gitlab-ci-multi-runner:1.1.4-3
+FROM sameersbn/gitlab-ci-multi-runner:1.1.4-4
 MAINTAINER mps299792458@gmail.com
 
 RUN apt-get update \
