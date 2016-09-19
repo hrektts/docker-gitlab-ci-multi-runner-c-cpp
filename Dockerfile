@@ -3,7 +3,6 @@ MAINTAINER mps299792458@gmail.com
 
 RUN apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y build-essential cmake \
-    doxygen graphviz \
  && rm -rf /var/lib/apt/lists/*
 
 RUN git clone https://github.com/google/googletest.git \
