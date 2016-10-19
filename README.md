@@ -1,4 +1,4 @@
-docker-gitlab-ci-multi-runner-c-c++
+docker-gitlab-ci-multi-runner-c-cpp
 ===================================
 
 [![Travis Build Status](https://travis-ci.org/hrektts/docker-gitlab-ci-multi-runner-c-cpp.svg?branch=master)](https://travis-ci.org/hrektts/docker-gitlab-ci-multi-runner-c-cpp)
